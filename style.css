@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    /* border: 1px black solid; */
+    display: grid;
+    /* grid-template-columns: repeat(3,100px);*/
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.sec1{
+    /* justify-content: right; */
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+    
+
+}
+.sec2{
+    width: 200px;
+    text-align: center;
+}
